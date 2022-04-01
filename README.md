@@ -1,11 +1,16 @@
-# Spring4shell PoC Lab
+# Spring4shell PoC Script
 
-Spring 4 Shell PoC Lab build with Docker and attack script writted in Rust
+Interactive Spring4Shell PoC attack script written in Rust
 
 ## Requirements
 
 - Rust
 - Docker
+
+## Features
+
+- war file deployer
+- interactive web shell
 
 ## Vulnerable Products
 
@@ -15,10 +20,11 @@ Spring 4 Shell PoC Lab build with Docker and attack script writted in Rust
 ## Building the Lab
 
 - Install docker
-- Run the bash script inside Docker directory
+- Git clone lab repo and then build
 
 ```bash
-cd Docker
+git clone https://github.com/aancw/Spring4shell-poc-lab
+cd Spring4shell-poc-lab
 sh deploy.sh
 ```
 
